@@ -1,0 +1,64 @@
+/* Login.css */
+.login-container {
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ccc ;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 70%;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  body{
+    background: #D1913C;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFD194, #D1913C);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFD194, #D1913C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  .login-container {
+   
+    width: 400px; /* Adjust the width as needed */
+    height: 600px;
+  }
+  
+  .login-form {
+    width: 400px; /* Adjust the width as needed */
+    padding: 20px; /* Add padding to create space around the form */
+  }
+  
+  .login-image {
+    max-width: 100%; /* Adjust as needed */
+    height: auto;
+    margin-right: 50px; /* Add margin to create space between form and image */
+  }
+  
